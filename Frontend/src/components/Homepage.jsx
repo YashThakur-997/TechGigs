@@ -170,6 +170,17 @@ const Homepage = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </NavLink>
             
+             <NavLink
+              to="/orders"
+              className="group relative overflow-hidden bg-gradient-to-r from-indigo-500 to-teal-500 text-white font-bold px-6 sm:px-8 lg:px-10 py-3 sm:py-4 rounded-full hover:scale-110 transition-all duration-300 shadow-2xl hover:shadow-emerald-300/25 text-sm sm:text-base"
+            >
+              <span className="relative z-10 flex items-center gap-2">
+                Place Orders 
+                <span className="group-hover:translate-x-1 transition-transform duration-300"></span>
+              </span>
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 to-teal-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </NavLink>
+            
             <NavLink
               to="/about"
               className="group border-2 border-white/50 text-white font-bold px-6 sm:px-8 lg:px-10 py-3 sm:py-4 rounded-full hover:bg-white/10 backdrop-blur-sm transition-all duration-300 hover:scale-105 text-sm sm:text-base"

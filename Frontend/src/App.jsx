@@ -16,6 +16,7 @@ import Uiux from './components/uiux'
 import Signup from './components/signup'
 import Orders from './components/Orders'
 import Portfolio from './components/Portfolio'
+import OrderSection from './components/Ordersection'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -73,6 +74,10 @@ function App() {
       path:"/portfolio",
       element:<><Navbar/><Portfolio/></>
     },
+    {
+      path:"/ordersection",
+      element:<><Navbar/><OrderSection/></>
+    }
   ])
 
   return (

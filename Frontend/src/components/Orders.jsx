@@ -155,7 +155,7 @@ const Orders = () => {
               <p className="text-lg text-gray-600">Track and manage your project orders</p>
             </div>
             <NavLink
-              to="/services"
+              to="/ordersection"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               <span></span>
