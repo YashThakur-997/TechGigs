@@ -29,7 +29,7 @@ const Login = () => {
   </NavLink>
 </div>
 
-<div className="flex justify-center items-center min-h-screen px-4">
+<div className="flex justify-center items-center h-110 px-4 ">
   <form
     onSubmit={handleSubmit(onSubmit)}
     noValidate

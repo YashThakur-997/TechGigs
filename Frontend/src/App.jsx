@@ -14,6 +14,8 @@ import Videoediting from './components/Videoediting'
 import Aitools from './components/Aitools'
 import Uiux from './components/uiux'
 import Signup from './components/signup'
+import Orders from './components/Orders'
+import Portfolio from './components/Portfolio'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -62,7 +64,15 @@ function App() {
     {
       path:"/Aitools",
       element:<><Navbar/><Aitools/></>
-    }
+    },
+    {
+      path:"/Orders",
+      element:<><Navbar/><Orders/></>
+    },
+    {
+      path:"/portfolio",
+      element:<><Navbar/><Portfolio/></>
+    },
   ])
 
   return (
